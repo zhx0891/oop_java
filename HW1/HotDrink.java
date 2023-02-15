@@ -1,3 +1,5 @@
+package HW1;
+
 public class HotDrink {
     String tradeMark;
     String volume;
