@@ -2,10 +2,10 @@ package HW1;
 
 public class HotDrink {
     private String tradeMark;
-    private String volume;
+    private double volume;
     private int temperature;
 
-    public HotDrink(String aTradeMark, String aVolume, int aTemperature){
+    public HotDrink(String aTradeMark, double aVolume, int aTemperature){
         this.temperature = aTemperature;
         this.tradeMark = aTradeMark;
         this.volume = aVolume;
@@ -18,7 +18,7 @@ public class HotDrink {
     String getTradeMark(){
         return this.tradeMark;
     }
-    String getVolume(){
+    double getVolume(){
         return this.volume;
     }
     int getTemperature(){

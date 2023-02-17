@@ -8,7 +8,7 @@ public class AutomatHotDrinks extends AutomatOfDrinks {
     }
 
     @Override
-    public void getProduct(String name, int volume, int temperature) {
+    public void getProduct(String name, double volume, int temperature) {
 
         for (int i = 0; i < hotDrinks.size(); i++) {
             if (hotDrinks.get(i).getTradeMark().equals(name)) {
